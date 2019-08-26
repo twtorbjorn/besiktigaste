@@ -1,0 +1,1097 @@
+/* Fonts */
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url(/assets/fonts/Ubuntu-B.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-BoldItalic';
+    src: url(/assets/fonts/Ubuntu-BI.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-LI';
+    src: url(/assets/fonts/Ubuntu-LI.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url(/assets/fonts/Ubuntu-M.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-MediumItalic';
+    src: url(/assets/fonts/Ubuntu-MI.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Italic';
+    src: url(/assets/fonts/Ubuntu-RI.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(/assets/fonts/Ubuntu-R.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url(/assets/fonts/Ubuntu-LI.ttf);
+}
+
+@font-face {
+    font-family: 'GothamProLight';
+    src: url(/assets/fonts/GothamProLight/GothamProLight.ttf);
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(/assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url(/assets/fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url(/assets/fonts/OpenSans-Italic.ttf);
+}
+/* Main */
+
+body{
+    min-width: 1100px;
+}
+main{
+    text-align: center;
+    position: static;
+}
+header{
+    background-color: rgb(1,32,61);
+    height: 102px;
+    text-align: center;
+}
+button:focus {
+    outline:none;
+}
+button::-moz-focus-inner {
+    border:0;
+}
+.headerContent{
+    display: inline-block;
+    width: 960px;
+    height: 100%;
+}
+.kontaktaOss{
+    float: right;
+    margin-right: 18px;
+    margin-top: 18px;
+}
+.contentNytrMap{
+    width:940px;
+    display: inline-block;
+}
+.contentNytr{
+    width:940px;
+    display: inline-block;
+    padding-bottom: 70px;
+}
+.contentBlock{
+    text-align: left;
+    margin-top: 18px;
+    position: static;
+}
+.contentText{
+    display: block;
+    font-family: OpenSans;
+    font-size: 14px;
+    width: 500px;
+    padding: 10px 0;
+    line-height: 1.8;
+}
+.contentText .contentBold{
+    font-family: OpenSans-Bold;
+}
+.contentTitleMain{
+    font-family: Ubuntu-BoldItalic;
+    font-size: 24px;
+    margin: 15px 0 10px 0;
+}
+.contentSelect{
+    display: inline-block;
+    background-color: rgb(235,237,240);
+    padding: 20px;
+    font-family: Ubuntu-Italic;
+    font-size: 13px;
+    line-height: 2;
+    color: rgb(1,32,61);
+}
+.contentTitle{
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 0 !important;
+    margin-top: 15px;
+}
+.contentImg{
+    margin: 20px 0;
+    max-width: 520px;
+    display: block;
+}
+.leftContentNytr{
+    position: relative;
+    text-align: left;
+    float: left;
+    width: 380px;
+    margin-top: 440px;
+
+}
+.rightContentMap{
+    float:right; width: 520px;
+    padding-top:-180px;
+}
+.rightContentLocal{
+    float:right; width: 520px;
+    padding-top: 180px;
+}
+.rightContentNytr{
+    float:right; width: 520px;
+}
+.rightContentNytrAtTop{
+    position: relative;
+    width: 520px;
+}
+.logo{
+    margin: 14px 0 0 14px;
+    float: left;
+}
+nav {
+    float: right;
+    font-family: Ubuntu-Medium;
+    font-size: 16px;
+    padding-right: 10px;
+    height: 100%;
+    display: table;
+}
+.headerText {
+    height: 102px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.bullet {
+    color: rgb(99, 177, 251);
+}
+.headerLink:link, .headerLink:visited{
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.headerLinkActive{
+    color: rgb(99, 177, 251) !important;
+}
+.headerLink:hover{
+    color: rgb(99, 177, 251);
+    cursor: hand;
+}
+.visited .headerLink{
+    color: rgb(255, 255, 255);
+}
+.headerLink:active {
+    color: rgb(99, 177, 251);
+}
+.topicMenu{
+    background-color: rgb(236,236,237);
+}
+.topicMenuImg{
+    background: url("/assets/images/main.jpg") no-repeat center;
+    height: 599px;
+}
+.topicMenuNytrImg{
+    background: url("/assets/images/backgroundNytr.jpg") no-repeat center;
+    height: 159px;
+}
+.topicMenuNytrMapImg{
+    background: url("/assets/images/backgroundNytrMaps.jpg") no-repeat center;
+    height: 159px;
+}
+.tabPanel {
+    text-align: center;
+}
+ul.nav.nav-tabs {
+    display: inline-block;
+    padding-top: 10px;
+    border-bottom: rgb(3,71,135) solid;
+}
+ul.nav.nav-tabs > li.active{
+    background-color: rgb(3, 71 ,135);
+    border-radius: 10px 10px 0 0;
+}
+ul.nav.nav-tabs > li {
+    border-radius: 10px 10px 0 0;
+    background-color: transparent ;
+    height: 48px;
+}
+
+ul.nav.nav-tabs > li:first-child {
+    width: 230px;
+}
+ul.nav.nav-tabs > li:nth-child(2) {
+    width: 417px;
+}
+ul.nav.nav-tabs > li:last-child {
+    width: 293px;
+}
+ul.nav.nav-tabs > li.active{
+    background-color: rgb(3, 71 ,135);
+}
+
+ul.nav.nav-tabs > li > a {
+    font-family: Ubuntu-MediumItalic;
+    font-size: 22px;
+    color: rgb(1, 32 ,61);
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    height: 48px;
+}
+
+ul.nav.nav-tabs > li > a:hover {
+    color: rgb(99, 177, 251);
+    border: none;
+}
+
+ul.nav.nav-tabs > li.active > a{
+    font-size: 22px;
+    color: rgb(255, 255 , 255);
+    background-color: transparent ;
+    border: none;
+}
+.iconArray {
+    margin-right: 11px ;
+    margin-bottom: 3px;
+}
+.downArray {
+    content: url("/assets/images/down.png") no-repeat center;
+}
+
+.rightArray {
+    content: url("/assets/images/right.png") no-repeat center;
+}
+div.tab-content{
+    text-align: top;
+    margin-top: 7px;
+}
+div.tab-pane, div.tab-pane.active {
+    display: inline-block;
+    width: 460px;
+    height: 520px;
+    background: url("/assets/images/box.jpg") no-repeat center;
+    position: relative;
+    right:240px;
+    text-align: left;
+    padding-left: 60px;
+}
+div.tab-pane-nytr, div.tab-pane-nytr.active{
+    width: 380px;
+    height: 506px;
+    background: url("/assets/images/boxNytr.jpg") no-repeat center;
+    right:280px;
+    padding-left: 27px;
+}
+.btn-group{
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+
+
+.btn-group:hover{
+    box-shadow: 0 0 0 2px rgb(57, 114 , 169);
+    border-radius: 7px;
+}
+.noShadow{
+    box-shadow: none !important;
+}
+.btn-group.orange, .orange{
+    box-shadow: 0 0 0 2px rgb(255, 140 , 42) !important;
+    border-radius: 7px;
+}
+button.btn{
+    outline: 0;
+}
+
+button.btn.dropdown-toggle{
+    width: 299px;
+    height: 100%;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    background-color: rgb(255, 255 , 255);
+    border-radius: 5px 0 0 5px;
+    font-size: 15px;
+    font-family: Ubuntu-Italic;
+    text-align: left;
+    padding-left: 10px;
+}
+button.btn.dropdown-toggle:hover{
+    width: 299px;
+}
+.buttonNytr, .buttonNytr:hover{
+    width: 279px !important;
+}
+button.boxArray{
+    background: url("/assets/images/boxArray.png") no-repeat center;
+    width: 41px;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(1, 32 , 61);
+    border-radius: 0 5px 5px 0 !important;
+}
+button.boxArray:hover {
+    background: url("/assets/images/boxArrayBlue.png") no-repeat center;
+    background-color: rgb(1, 32 , 61);
+    width: 41px;
+    outline: 0;
+}
+button.blueBack:hover, button.blueBack:focus,button.blueBack:active,button.boxArray:active,button.boxArray:focus{
+    outline: 0;
+}
+ul.dropdown-menu {
+    border: none;
+    background-color: rgb(245, 245 , 245);
+    border-radius: 0 0 5px 5px;
+    width: 339px;
+    padding: 0;
+    margin-top:-1px;
+    border-top: 2px solid rgb(57,114,169);
+}
+ul.dropdown-menu-nytr{
+    width: 319px !important;
+    z-index: 1002;
+}
+
+.dropdown-menu>li {
+    color: rgb(3, 70 , 134);
+    font-size: 15px;
+    font-family: Ubuntu-Medium;
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+    cursor: pointer;
+    overflow:hidden;
+}
+.dropdown-menu>li:hover{
+    background-color: rgb(216,226,235);
+}
+.borderRadiusLastLi{
+    border-radius: 0 0 5px 5px !important;
+}
+
+.blueBack{
+    background: url("/assets/images/boxArray.png") no-repeat center;
+    background-color: rgb(99, 177 , 251);
+    border-radius: 0 5px 0 0 !important;
+    width: 41px;
+    height: 100%;
+    margin: 0;
+}
+.textFieldRadius {
+    border-radius: 5px 0 0 0 !important;
+}
+.blueBack:active{
+    background: url("/assets/images/boxArray.png") no-repeat center;
+    background-color: rgb(99, 177 , 251);
+    border-radius: 0 5px 0 0 !important;
+    width: 41px;
+    height: 100%;
+    margin: 0;
+}
+.ubuntuRegular {
+    font-family: Ubuntu-Regular;
+}
+.boxText{
+    font-size: 20px;
+    color: rgb(255, 255 , 255);
+    font-family:Ubuntu-BoldItalic;
+    display: block;
+    margin-top: 18px;
+}
+.boxTextNytr{
+    font-size: 32px !important;
+}
+.inputLabel{
+    font-size: 16px !important;
+    margin-top: 8px !important;
+}
+.inputLabelNytr{
+    font-size: 18px !important;
+    margin-top: 6px !important;
+}
+
+.alertBox{
+    position: relative;
+    top:10px;
+    left: 10px;
+}
+.alertBox.alertInput{
+    top:-3px;
+}
+.boxArea{
+    resize: none;
+    width: 339px;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 6px 10px;
+    font-family:Ubuntu-Italic;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
+}
+.inputField{
+    margin-top: -3px !important;
+}
+.boxAreaNytr{
+    width: 320px !important;
+}
+.newBoilerTextArea {
+    height: 108px;
+}
+.boilerRepairTextArea{
+    height: 240px;
+}
+.boilerPlumbingRepairTextArea{
+    height: 306px;
+}
+.boxArea:-moz-placeholder {
+    font-size: 15px;
+    font-family:Ubuntu-Italic;
+    color: rgb(0, 0, 0);
+}
+.boxArea::-webkit-input-placeholder {
+    font-size: 15px;
+    font-family:Ubuntu-Italic;
+    color: rgb(0, 0, 0);
+}
+.boxButton, .boxButtonService{
+    display: block;
+    background: url("/assets/images/button.png") no-repeat center;
+    font-size: 24px;
+    font-family: Ubuntu-Bold;
+    width: 320px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 4px black;
+    box-shadow: 1px 1px 4px black;
+    position: absolute;
+    bottom:40px;
+}
+.boxButtonNytr{
+    width: 320px !important;
+    bottom:30px !important;
+}
+.boxButton:hover, .boxButtonService:hover{
+    background: url("/assets/images/buttonHover.png") no-repeat center;
+    text-shadow: 2px 2px 4px black;
+}
+.boxButton:active, .boxButtonService:active{
+    background: url("/assets/images/buttonClick.png") no-repeat center;
+    text-shadow: 2px 1px 4px black;
+}
+}
+.boxButtonNytr:hover, .boxButtonService:hover{
+    background: url("/assets/images/buttonHover.png") no-repeat center;
+    text-shadow: 2px 2px 4px black;
+}
+.boxButtonNytr:active, .boxButtonService:active{
+    background: url("/assets/images/buttonClick.png") no-repeat center;
+    text-shadow: 2px 1px 4px black;
+}
+.boxButtonImage{
+    position: relative;
+    top:-5px;
+    margin-right: 17px;
+
+}
+.boxButtonArray{
+    position: relative;
+    top: -1px;
+    left: 20px;
+    padding-right: 20px;
+}
+.quickEasy {
+    margin-left: 350px;
+    margin-top: 50px;
+    z-index: 1000;
+}
+.logo100{
+    display: inline-block;
+    position: absolute;
+    margin-left: -85px;
+    margin-top:77px;
+    z-index: 1000;
+}
+.logo100.logoNytr{
+    position: absolute;
+    display: inline-block;
+    margin-left: 215px;
+    margin-top:-110px;
+}
+.logo100.logoUC{
+    position: absolute;
+    display: inline-block;
+    margin-left: 215px;
+    margin-top:-110px;
+    width: 144px;
+    height: 180px;
+}
+.numberGroup{
+    display: inline-block;
+    width: 940px;
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(171,182,191);
+}
+.numberBlock{
+    display: inline-block;
+}
+.numberTwo{
+    margin-left: 120px;
+}
+.numberThree{
+    margin-left: 170px;
+}
+.bigNumber{
+    font-family: GothamProLight;
+    font-size: 50px;
+    color: rgb(99, 177, 251);
+}
+.numberText{
+    display: inline-block;
+    font-family: Ubuntu-Italic;
+    font-size: 16px;
+    color: rgb(1, 32, 61);
+    line-height: 1.5;
+    margin-left: 15px;
+}
+.mainText{
+    display: inline-block;
+    width: 940px;
+    margin-top: 50px;
+}
+
+.mainTextLeft{
+    float: left;
+    text-align: left;
+    width: 590px;
+}
+.mainTextRight{
+    float: right;
+    width: 320px;
+}
+.tableCertifieradeFtg{
+    font-family: OpenSans;
+}
+.headerCertifieradeFtg{
+    font-family: OpenSans;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    border: solid 1px;
+    padding: 10px;
+    width: 80px;
+}
+.textCertifieradeFtg{
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    border: solid 1px;
+    padding: 10px;
+}
+.h1{
+    font-family: Ubuntu-BoldItalic;
+    font-size: 34px;
+}
+.h2{
+    font-family: Ubuntu-BoldItalic;
+    font-size: 24px;
+    margin-top: 19px;
+    margin-bottom: 11px;
+}
+.title1{
+    font-family: Ubuntu-BoldItalic;
+    font-size: 34px;
+}
+.textFragment{
+
+    font-family: OpenSans;
+    font-size: 14px;
+    padding-top: 25px;
+}
+.mainTextBold{
+    font-family: OpenSans-Bold !important;
+}
+.title2{
+    font-family: Ubuntu-BoldItalic;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.mainUl{
+    list-style-image: url('/assets/images/checkUl.png');
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.mainOl{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    list-style-type: decimal;
+}
+.mainLiText{
+    padding-top: 15px;
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 2;
+}
+.liBig {
+    line-height: 1 !important;
+    font-size: 17px !important;
+}
+.title3{
+    width: 170px;
+    margin-top: 0 !important;
+}
+.titleCarouselNytr{
+    text-align: left;
+    padding-left: 34px;
+    width: 190px;
+}
+.faqTitle, .articlesTopicsTitle{
+    display: block;
+    font-family: Ubuntu-BoldItalic;
+    font-size: 34px;
+    text-align: left;
+    margin-top: 30px;
+}
+.articlesTopicsTitle{
+    font-size: 37px !important;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.articleItalic{
+    font-size: 16px !important;
+    font-style: italic;
+}
+.articleOnlyItalic{
+    font-style: italic;
+}
+.articlesLinks{
+    display: block !important;
+    margin: 10px 0 !important;
+    font-size: 16px;
+}
+.faqBlock{
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(171,182,191);
+    text-align: left;
+}
+.articlesBlock{
+    padding: 15px 0;
+    text-align: left;
+}
+.articlesLink{
+    padding-left: 0 !important;
+    text-decoration: underline;
+    color: rgb(3,69,132);
+}
+.articlesText{
+    margin-left: 0 !important;
+}
+.faqImg{
+    vertical-align: top;
+    padding-top: 5px;
+}
+.faqImgMinus{
+    padding-top: 10px !important;
+}
+.faqQuestion{
+    display: inline-block;
+    max-width: 500px;
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    color: rgb(3,69,132);
+    padding-left: 5px;
+}
+span.faqQuestion:hover{
+    cursor: pointer !important;
+}
+.faqQuestion:hover{
+    cursor: default;
+}
+.faqAnswer{
+    font-family: OpenSans;
+    font-size: 14px;
+    margin-left: 22px ;
+    max-width: 500px;
+    margin-top: 13px;
+    color: rgb(1,32,61);
+}
+.faqQuestionOpen{
+    color: rgb(1,32,61) !important;
+}
+.articlePlus{
+    margin-right: 10px;
+}
+.carousel.slide{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+.carouselNytr{
+    margin-left: 0px !important;
+}
+
+.carusel-text{
+    text-align: left;
+    font-style: italic;
+    color: #c3c3c3;
+}
+.carouselIndicatorNytr{
+    text-align: left;
+    margin-left: -158px;
+}
+.carousel-indicators li {
+    margin: 4px !important;
+    height: 12px !important;
+    width: 12px !important;
+    background-color: #abb6bf !important;
+    font-size: 200px;
+}
+.carousel-indicators .active {
+    background-color: #63b1fb !important;
+}
+.carousel-indicators-bottom{
+    padding-bottom: 70px;
+    min-height: 200px;
+}
+.quotes-comments{
+    display: inline-block;
+}
+.carousel-indicators-bottom > img{
+    float: left
+}
+.carousel-inner {
+    width: 310px;
+    text-align: center;
+}
+.carusel-text{
+    margin-left: 7px;
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    font-style: normal !important;
+    color: rgb(109, 108, 108);
+}
+.black{
+    color: rgb(0, 0, 0);
+}
+
+.upperFooter{
+    margin-top: 50px;
+    min-height: 186px;
+    background-color:rgb(235, 237, 240);
+}
+.upperFooterInfo{
+    display: inline-block;
+    width: 940px;
+    text-align: left;
+
+}
+
+.upperFooterTitle{
+    font-family: Ubuntu-BoldItalic;
+    font-size: 26px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.upperFooterButton{
+    width: 149px;
+    height: 35px;
+    border: none;
+    font-family: Ubuntu-MediumItalic;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    float: right;
+    margin-top: 30px;
+}
+.footerButtonClose{
+    background: url('/assets/images/footerButtonLink.png');
+}
+.footerButtonClose:hover{
+    background: url('/assets/images/footerButtonHover.png');
+}
+.footerButtonClose:active{
+    background: url('/assets/images/footerButtonClick.png');
+}
+.footerButtonOpen{
+     background: url('/assets/images/footerButtonCloseLink.png');
+}
+.footerButtonOpen:hover{
+    background: url('/assets/images/footerButtonCloseHover.png');
+}
+.footerButtonOpen:active{
+    background: url('/assets/images/footerButtonCloseClick.png');
+}
+.brandsContainer{
+    display: inline-block;
+    width: 940px;
+    text-align: left;
+    margin-top: 20px;
+}
+.brandsContainerMore{
+    display: inline-block;
+    width: 940px;
+    text-align: left;
+    padding-bottom: 35px;
+}
+.brands{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 90px;
+    max-height: 55px;
+}
+.brandsMore{
+    margin-top: 15px;
+}
+.brandsLeft{
+    margin-left: 0 !important;
+}
+.brandsRight{
+    margin-right: 0 !important;
+}
+.footer{
+    background-color:rgb(1,32,61);
+    text-align: center;
+}
+.footerContext{
+    width: 940px;
+    display: inline-block;
+    height: 75px;
+}
+.footerCopyright{
+    font-family: Ubuntu-Light;
+    font-size: 16px;
+    color: rgb(99,177,251);
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+}
+.footerText{
+    display: inline-block;
+    float: right;
+    font-family: Ubuntu-Regular;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.footerLink{
+    padding: 0 15px !important;
+}
+.contentTable {
+    max-width: 520px;
+    margin-bottom: 30px;
+}
+.contentTable td{
+    text-align: center;
+    vertical-align: middle;
+}
+.contentTable td.left{
+    text-align: left;
+}
+.contentTable td.padFirst{
+    padding-left: 7px;
+}
+.contentTable tr{
+    height: 40px;
+}
+.contentTableHead td{
+    width: 105px;
+}
+.contentTableHead td.small{
+    width: 100px;
+}
+.contentTableHead{
+    font-family: OpenSans-Italic;
+    font-size: 12px;
+    color: rgb(1,32,61);
+}
+.grey{
+    background-color: rgb(235,237,240);
+}
+.modal_form {
+    width: 345px;
+    height: 330px;
+    background-color: rgb(255, 110, 21);
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.25);
+    box-shadow: 2px 2px 3px rgba(0,0,0,.25);
+    position: absolute;
+    top: 70px;
+    left: 56px;
+    display: inline-block;
+    z-index: 5;
+    padding: 20px 10px;
+    text-align: center;
+}
+.modal_form.modal_form_small{
+    width: 325px !important;
+    left: 25px !important;
+}
+.modal_form .modal_close, .modal_form_success .modal_close_success {
+    background-image: url(/assets/images/cross.png);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    display: block;
+}
+.alertImg{
+    margin-top: 10px;
+}
+.alertTitle{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+    font-family: Ubuntu-BoldItalic;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+.alertText{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    font-family: Ubuntu-Regular;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+}
+.modal_close_a, .modal_close_a:hover {
+   text-decoration: underline;
+    cursor: pointer;
+    font-family: Ubuntu-Bold;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.modal_form_success {
+    width: 340px;
+    height: 310px;
+    background-color: rgb(104, 161, 11);
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.25);
+    box-shadow: 2px 2px 3px rgba(0,0,0,.25);
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -155px;
+    margin-left: -170px;
+    display: block;
+    opacity: 0;
+    z-index: 1006;
+    padding: 20px 10px;
+    text-align: center;
+}
+.overlay {
+    z-index: 1000;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: block;
+}
+.serviceUl{
+    width: 940px;
+    border: none !important;
+    margin-bottom: 2px !important;
+}
+.nav.nav-tabs.serviceUl > li {
+    width: 380px !important;
+}
+.serviceTitle{
+    font-size: 30px !important;
+}
+.boxButtonService{
+    width: 320px !important;
+    position: relative;
+    margin-top: 50px;
+}
+.serviceTextArea{
+    height: 85px;
+}
+.modal_form_service{
+    width: 325px !important;
+    left: 25px !important;
+    height: 410px !important;
+    top: 10px;
+}
+.alertImgService{
+    margin-top: 60px;
+}
+.height80{
+    height: 80px
+}
+.articlesTopics ol{
+    text-align: left;
+}
+.articlesBlock .articlesText ol, .articlesTopics ol{
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    color: rgb(3,69,132);
+}
+
+.articlesBlock .articlesText ol > li, .articlesTopics ol > li {
+    display: table;
+    counter-increment: item;
+}
+
+.articlesBlock .articlesText ol > li:before, .articlesTopics ol > li:before {
+    content: counters(item, ".") ". ";
+    display: table-cell;
+    padding-right: 0.6em;
+}
+
+.articlesBlock .articlesText li ol > li, .articlesTopics li ol > li {
+    margin: 0;
+}
+
+.articlesBlock .articlesText li ol > li:before, .articlesTopics li ol > li:before {
+    content: counters(item, ".") " ";
+}
+.articlesMar{
+    margin-bottom: 10px !important;
+    display: inline-block;
+}
+.articlesMar:hover{
+    cursor: pointer !important;
+    color: rgb(99, 177, 251);
+}
+.marg25{
+    margin-bottom: 25px;
+}
+
+.firstForm {
+    height: 36px !important;
+    margin-top: 0px;
+}
+
+textarea.inputField {
+    height: 80px;
+}

@@ -1,0 +1,44 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Theme change:
+grön: 04600B, bg_green_new.gif
+blå: 025091, h1-h3: 025091,  bg_blue_new.gif
+rosa: 7B0546
+röd: B50101, bg_red_new.gif
+orange: D54D02, h1-h3: 7D2E02
+*/
+
+#pagewrap{
+
+	width: 1280px;
+	background: #FFFFFF;
+	border: 2px #9f8373 double; /* Theme change here*/
+	margin: 20px auto;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+}
+
+
+/* Footer */
+
+#footer {
+	padding: 4px;
+	background: #9f8373; /*Theme change here*/
+	border-width: 3px;
+	border-color: #9f8373; /* B10202Theme change here */
+	clear: both;
+
+}
+
+body {
+	/*margin: 20px 0;*/
+	color: #FFFFFF;
+	background-image: url(../img/bg_1311.jpg); /* Theme change*/
+	background-repeat: repeat-x;
+}
+
+
+

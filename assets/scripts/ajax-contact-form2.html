@@ -1,0 +1,34 @@
+
+<div id="page-wrapper" class="page-wrapper">
+    <h2 class="boxText">Kontaktformulär</h2>
+    
+    <div id="form-messages"></div>
+    
+    <form id="ajax-contact" method="post" action="/assets/scripts/ajax-contact-mailer.php">
+        <div class="field">
+            <label for="name" class="boxText inputLabel">Namn:</label>
+            <input type="text" id="name" name="name" required value="">
+        </div>
+    
+        <div class="field">
+            <label for="email" class="boxText inputLabel">Epostadress:</label>
+            <input type="email" id="email" name="email" required value="">
+        </div>
+        
+        <div class="field">
+            <label for="mobiltelefon" class="boxText inputLabel">Mobiltelefon:</label>
+            <input type="mobiltelefon" id="mobiltelefon" name="mobiltelefon" required value="">
+        </div>
+    
+        <div class="field">
+            <label for="message" class="boxText inputLabel">Meddelande:</label>
+            <textarea id="message" name="message" placeholder="" ></textarea>
+        </div>
+    
+        <div class="field">
+            <button type="submit" class="boxTextslim">Skicka</button>
+        </div>
+    </form>
+</div>
+
+
